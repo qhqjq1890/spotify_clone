@@ -27,7 +27,7 @@ const Container = styled.div`
 export default function Login() {
   const handleClick = () => {
     const clientId = "e04112cbedc54385818e861ac5abfaff";
-    const redirectUrl = "http://192.168.123.105:5173/";
+    const redirectUrl = "http://localhost:5173/";
     const apiUrl = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-email",
